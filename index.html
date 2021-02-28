@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Survey form
+        </title>
+        <link rel="stylesheet" href="mystyles.css">   
+    </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style> 
+<body>
+   <main>
+       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
+        <br><br><h1 id="title">Gaming trends</h1><br><br>
+        <p id="description">This Survey aims to clarify the gaming trends in the industry</p>
+    </header>
+
+    <form id="survey-form">
+<div id="group-1">
+        <label for="name" id="name-label">Name:</label><br><br>
+        <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+        <label for="email" id="email-label">Email:</label><br><br>
+        <input type="email" id="email" name="email" placeholder="Email" required><br><br> 
+
+        <label for="number"id="number-label">Age:</label><br><br>
+  <input type="number" id="number" name="age" min="1" max="99" placeholder="Age" required><br><br>
+</div>
+
+  <div id="select">
+  <label for="genres" id="categ">What game category do you prefer:</label><br><br>
+  <select id="dropdown" name="categories">
+    <option value="Adventure">Adventure</option>
+    <option value="Horror">Horror</option>
+    <option value="Simulation">Simulation</option>
+    <option value="Role-play">Role-play</option>
+    <option value="Strategy">Strategy</option>
+    <option value="Sports">Sports</option>
+    <option value="Puzzle">Puzzle</option>
+    <option value="Idle">Idle</option>
+ </select> 
+  </div>
+
+  <div id="devices">
+<h3>Where do you play</h3>
+    <input type="radio" id="console" name="devices" value="console">
+    <label for="console">Console</label><br>
+    <input type="radio" id="PC" name="devices" value="PC">
+    <label for="PC">PC</label><br>
+    <input type="radio" id="smartphone" name="devices" value="smartphone">
+    <label for="smartphone">Smartphone</label> 
+  </div>
+
+  <div id="games">
+      <h3>Which game have you ever play</h3>
+    <input type="checkbox" id="sims" name="sims" value="sims">
+    <label for="sims">The Sims</label><br>
+    <input type="checkbox" id="fortnite" name="fortnite" value="fortnite">
+    <label for="fortnite"> Fortnite</label><br>
+    <input type="checkbox" id="minecraft" name="minecraft" value="minecraft">
+    <label for="minecraft"> Minercraft</label><br>
+    <input type="checkbox" id="grand" name="grand" value="grand">
+    <label for="grand"> Grand Theft Auto</label><br>
+    <input type="checkbox" id="roblox" name="roblox" value="roblox">
+    <label for="roblox"> Roblox</label><br>
+    <input type="checkbox" id="lol" name="lol" value="lol">
+    <label for="lol"> League Of Legends</label><br><br>
+</div>
+
+<div id="textarea">
+
+    <label for="text" id="text-label">Comments</label><br><br>
+
+    <textarea id="text" name="text" rows="4" cols="50">
+   comments
+    </textarea> <br>
+
+
+</div>
+<button type="submit" form="survey-form" value="Submit" id="submit">Submit</button>
+
+</form>
+
+   </main>
+
+</body>
+</html>

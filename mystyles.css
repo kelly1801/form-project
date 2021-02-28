@@ -1,0 +1,81 @@
+
+
+@import {
+    url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+}
+
+body {
+    
+    background-image: url("https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg");
+  }
+
+
+  main {
+      background-color: turquoise;
+      width: 750px;
+      height: 850px;
+      margin-left: 273px;
+      margin-right: 273px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      border: 2px solid fuchsia;
+  border-radius: 5px;
+
+}
+
+form, header {
+
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header {
+
+    margin-left: 10%;
+    margin-top: 0.1%;
+}
+h1{
+
+    text-align: center;
+}
+
+#name, #email, #number {
+
+   width: 613px;
+margin-left: 10%;  
+border: 2px solid ;
+  border-radius: 15px;
+  height: 30px;
+
+}
+
+#dropdown {
+
+    width: 620px;
+ margin-left: 10%;  
+ 
+ }
+
+#name-label, #email-label, #number-label, #categ, #devices, #games, #text-label {
+    
+
+    margin-left: 10%;
+   
+ }
+
+ #submit {
+    
+
+    margin-left: 10%;
+    width: 613px;
+   
+ }
+
+ #text {
+    
+
+    margin-left: 10%;
+    width: 610px;
+   
+ }
